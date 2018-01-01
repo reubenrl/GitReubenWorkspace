@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.1258481699">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.1258481699" moduleId="org.eclipse.cdt.core.settings" name="Release">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.fujitsuF2MC16.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactName="dim" buildProperties="FujitsuF2MC16 Plugin.Target=FujitsuF2MC16 Plugin.Target.MB90543" description="" id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.1258481699" name="Release" parent="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release">
+<folderInfo id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.1258481699." name="/" resourcePath="">
+<toolChain id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.tc.1465321481" name="MB90543" superClass="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.tc">
+<option id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.category.addtools.flashly.677123063" name="FLASHly" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.category.addtools.flashly" value="false" valueType="boolean"/>
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.Platform.254356356" isAbstract="false" name="Fujitsu 16bit MCU" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.Platform"/>
+<builder buildPath="${workspace_loc:/dim/Release}" id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.builder.1807302942" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.builder"/>
+<tool id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.cc.1117201151" name="Fujitsu C Compiler" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.cc">
+<option id="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.296376794" name="Toolchain Target" superClass="org.eclipse.cdt.fujitsuF2MC16.target.mcpu" value="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.MB90543" valueType="enumerated"/>
+<option id="org.eclipse.cdt.fujitsuF2MC16.cc.directories.select.255165983" name="Include path (-I)" superClass="org.eclipse.cdt.fujitsuF2MC16.cc.directories.select" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dmx/src/inc}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/dmx/config}&quot;"/>
+</option>
+<inputType id="org.eclipse.cdt.fujitsuF2MC16.cc.input.424279997" name="Input" superClass="org.eclipse.cdt.fujitsuF2MC16.cc.input"/>
+</tool>
+<tool id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.as.1067482285" name="Fujitsu Assembler" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.as">
+<option id="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.90990398" name="Toolchain Target" superClass="org.eclipse.cdt.fujitsuF2MC16.target.mcpu" value="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.MB90543" valueType="enumerated"/>
+<inputType id="org.eclipse.cdt.fujitsuF2MC16.as.input.223783775" name="Input" superClass="org.eclipse.cdt.fujitsuF2MC16.as.input"/>
+</tool>
+<tool id="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.tc.ld.1671094066" name="Fujitsu C Linker" superClass="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB90543.release.tc.ld">
+<option id="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.1947669370" name="Toolchain Target" superClass="org.eclipse.cdt.fujitsuF2MC16.target.mcpu" value="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.MB90543" valueType="enumerated"/>
+<option id="org.eclipse.cdt.fujitsuF2MC16.ld.disposition.section.269183366" name="Section addresses (-sc)" superClass="org.eclipse.cdt.fujitsuF2MC16.ld.disposition.section" valueType="stringList">
+<listOptionValue builtIn="false" value="CONST/Const/WORD=0xFF4000"/>
+</option>
+<inputType id="org.eclipse.cdt.fujitsuF2MC16.ld.input.1726977293" name="Input" superClass="org.eclipse.cdt.fujitsuF2MC16.ld.input">
+<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+</inputType>
+</tool>
+<tool id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.converter.883382523" name="Fujitsu Object Copy Flash" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.converter"/>
+<tool id="org.eclipse.cdt.fujitsuF2MC16.executable.tc.flashly.1402471538" name="FLASHly - Flash programmer" superClass="org.eclipse.cdt.fujitsuF2MC16.executable.tc.flashly">
+<option id="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.2081233115" name="Toolchain Target" superClass="org.eclipse.cdt.fujitsuF2MC16.target.mcpu" value="org.eclipse.cdt.fujitsuF2MC16.target.mcpu.MB90543" valueType="enumerated"/>
+</tool>
+</toolChain>
+</folderInfo>
+<sourceEntries>
+<entry excluding="src/uartsw2.c|config/uartsw2conf.h|serial/serial.c|scr/uart2.c|scr/serialTest.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+</sourceEntries>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="avr-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="avr-g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="dim.org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB96F348HSB.220256652" name="Fujitsu 16bit Executable" projectType="org.eclipse.cdt.fujitsuF2MC16.exe.target.win32.MB96F348HSB"/>
+</storageModule>
+</cproject>

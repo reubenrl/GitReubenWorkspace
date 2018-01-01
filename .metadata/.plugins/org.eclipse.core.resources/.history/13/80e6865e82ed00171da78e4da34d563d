@@ -1,0 +1,43 @@
+/*
+ * global.h
+ *
+ *  Created on: Jun 4, 2014
+ *      Author: reuben
+ */
+
+#ifndef GLOBAL_H_
+#define GLOBAL_H_
+
+#define TRUE	-1
+#define FALSE	0
+
+
+#define 	outb(addr, data)   	addr = (data)
+#define 	inb(addr)   		(addr)
+#define 	outw(addr, data)   	addr = (data)
+#define 	inw(addr)   		(addr)
+#define 	BV(bit)   			(1<<(bit))
+#define 	cbi(reg, bit)   	reg &= ~(BV(bit))
+#define 	sbi(reg, bit)   	reg |= (BV(bit))
+
+
+typedef union{
+	unsigned int word;
+	struct{
+		unsigned char lsb;
+		unsigned char msb;
+	}byte;
+}t_data_type;
+
+/*
+#define 	MIN(a, b)   ((a<b)?(a):(b))
+#define 	MAX(a, b)   ((a>b)?(a):(b))
+#define 	ABS(x)   	((x>0)?(x):(-x))
+#define 	PI   		3.14159265359
+*/
+
+typedef		unsigned char 	t_uint8;
+typedef		unsigned short	t_uint16;
+typedef		unsigned long	t_uint32;
+
+#endif /* GLOBAL_H_ */
